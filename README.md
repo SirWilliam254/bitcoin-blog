@@ -1,4 +1,4 @@
-# Web3 and Bitcoin Research Blog
+# Finance, Web3 and Bitcoin Research Blog
 
 ## ✅ Lighthouse Score
 

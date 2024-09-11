@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "William Mburu",
   profile: "https://github.com/SirWilliam254",
   desc: "Bitcoin verses traditional finacial products",
-  title: "Bitcoin",
+  title: "Finance",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
