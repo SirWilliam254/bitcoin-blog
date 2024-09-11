@@ -1,12 +1,12 @@
 ---
-author: FjellOverflow
-pubDatetime: 2024-07-25T11:11:53Z
-title: How to integrate Giscus comments into AstroPaper
-slug: how-to-integrate-giscus-comments
+author: William Mburu
+pubDatetime: 2024-09-11T11:11:53Z
+title: Bitcoin Intro
+slug: intro
 featured: true
 draft: false
 tags:
-  - astro
+  - bitcoin
   - blog
   - docs
 description: Comment function on a static blog hosted on GitHub Pages with Giscus.
