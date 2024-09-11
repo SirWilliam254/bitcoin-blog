@@ -2,14 +2,14 @@
 author: William Mburu
 pubDatetime: 2024-09-11T11:11:53Z
 title: Bitcoin Intro
-slug: intro
+slug: bitcoin-intro
 featured: true
 draft: false
 tags:
   - bitcoin
   - blog
-  - docs
-description: Introduction to the world of crypto currency BITCOIN.
+
+description: Introduction to the world of crypto currency "BITCOIN".
 ---
 
 In the realm of technological marvels, few innovations have managed to capture the imagination quite like Bitcoin. Since its inception, this digital currency has sparked debates, inspired investment, and ignited a revolution in how we think about money. Let’s dive into the fascinating world of Bitcoin, exploring its origins, functionality, and the compelling reasons why it’s worth your attention.
