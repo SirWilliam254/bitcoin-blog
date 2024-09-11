@@ -12,191 +12,64 @@ tags:
 description: Comment function on a static blog hosted on GitHub Pages with Giscus.
 ---
 
-Hosting a thin static blog on a platform like [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) has numerous advantages, but also takes away some interactivity. Fortunately, [Giscus](https://giscus.app/) exists and offers a way to embed user comments on static sites.
+In the realm of technological marvels, few innovations have managed to capture the imagination quite like Bitcoin. Since its inception, this digital currency has sparked debates, inspired investment, and ignited a revolution in how we think about money. Let’s dive into the fascinating world of Bitcoin, exploring its origins, functionality, and the compelling reasons why it’s worth your attention.
 
 ## Table of contents
 
-## How _Giscus_ works
+## The Genesis of Bitcoin: A Revolutionary Birth
 
-[Giscus uses the GitHub API](https://github.com/giscus/giscus?tab=readme-ov-file#how-it-works) to read and store comments made by _GitHub_ users in the `Discussions` associated with a repository.
+Bitcoin made its debut on January 3, 2009, with the release of its first block, known as the **genesis block**, by an enigmatic figure under the pseudonym Satoshi Nakamoto. This groundbreaking creation was more than just a currency; it was a declaration of a new era in financial technology.
 
-Embed the _Giscus_ client-side script bundle on your site, configure it with the correct repository URL, and users can view and write comments (when logged into _GitHub_).
+But why did Nakamoto invent Bitcoin? The answer lies in the desire to address fundamental flaws in traditional financial systems. In the wake of the 2008 financial crisis, there was growing disillusionment with centralized banks and financial institutions. Bitcoin emerged as a decentralized alternative, aiming to create a financial system that is transparent, secure, and free from the manipulations of any central authority.
 
-The approach is serverless, as the comments are stored on _GitHub_ and dynamically loaded from there on client side, hence perfect for a static blog, like _AstroPaper_.
+## What Is Bitcoin? Demystifying the Digital Currency
 
-## Setting up _Giscus_
+At its core, Bitcoin is a **digital currency** that operates without the need for a central bank or single administrator. Instead, it relies on a decentralized network of computers to manage and record transactions. Here’s a breakdown of its key components:
 
-_Giscus_ can be set up easily on [giscus.app](https://giscus.app/), but I will outline the process shortly still.
+- **Blockchain Technology**: Bitcoin transactions are recorded on a public ledger called the **blockchain**. This chain of blocks contains a history of every transaction ever made, ensuring transparency and security.
 
-### Prequisites
+- **Decentralization**: Unlike traditional currencies, Bitcoin isn’t controlled by any government or financial institution. Its decentralized nature is maintained through a network of nodes (computers) that validate and record transactions.
 
-Prequisites to get _Giscus_ working are
+- **Mining**: Transactions are verified through a process called **mining**, where powerful computers solve complex mathematical problems. Successful miners are rewarded with newly created bitcoins, incentivizing them to maintain the network’s integrity.
 
-- the repository is [public](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#making-a-repository-public)
-- the [Giscus app](https://github.com/apps/giscus) is installed
-- the [Discussions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository) feature is turned on for your repository
+## How Bitcoin Helps: The Benefits of Digital Currency
 
-If any of these conditions cannot be fulfilled for any reason, unfortunately, _Giscus_ cannot be integrated.
+Bitcoin offers several benefits that set it apart from conventional currencies:
 
-### Configuring _Giscus_
+1. **Financial Inclusion**: Bitcoin provides access to financial services for those without traditional banking infrastructure. This is particularly impactful in regions with limited banking facilities.
 
-Next, configuring _Giscus_ is necessary. In most cases, the preselected defaults are suitable, and you should only modify them if you have a specific reason and know what you are doing. Don't worry too much about making the wrong choices; you can always adjust the configuration later on.
+2. **Lower Transaction Fees**: Traditional banking and payment systems often involve substantial fees. Bitcoin transactions, on the other hand, typically have lower fees, especially for international transfers.
 
-However you need to
+3. **Security and Transparency**: The blockchain technology underlying Bitcoin ensures that transactions are secure and transparent. The decentralized nature of Bitcoin means that no single entity can manipulate the system or control the flow of funds.
 
-- select the right language for the UI
-- specify the _GitHub_ repository you want to connect, typically the repository containing your statically hosted _AstroPaper_ blog on _GitHub Pages_
-- create and set an `Announcement` type discussion on _GitHub_ if you want to ensure nobody can create random comments directly on _GitHub_
-- define the color scheme
+4. **Inflation Resistance**: Unlike fiat currencies that can be printed in unlimited quantities, Bitcoin has a capped supply of 21 million coins. This scarcity helps protect against inflation and preserves value over time.
 
-After configuring the settings, _Giscus_ provides you with a generated `<script>` tag, which you will need in the next steps.
+## Why You Should Care: Embracing the Future of Finance
 
-## Simple script tag
+So, why should you take an interest in Bitcoin? Here are a few compelling reasons:
 
-You should now have a script tag that looks like this:
+- **Investment Opportunities**: Bitcoin has demonstrated significant growth potential, with early adopters seeing substantial returns on their investments. As the cryptocurrency market evolves, there are new opportunities for those willing to explore and invest.
 
-```html
-<script
-  src="https://giscus.app/client.js"
-  data-repo="[ENTER REPO HERE]"
-  data-repo-id="[ENTER REPO ID HERE]"
-  data-category="[ENTER CATEGORY NAME HERE]"
-  data-category-id="[ENTER CATEGORY ID HERE]"
-  data-mapping="pathname"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="bottom"
-  data-theme="preferred_color_scheme"
-  data-lang="en"
-  crossorigin="anonymous"
-  async
-></script>
-```
+- **Innovation**: Bitcoin is at the forefront of technological innovation. By engaging with it, you’re participating in a transformative movement that could shape the future of finance.
 
-Simply add that to the source code of the site. Most likely, if you're using _AstroPaper_ and want to enable comments on posts, navigate to `src/layouts/PostDetails.astro` and paste it into the desired location where you want the comments to appear, perhaps underneath the `Share this post on:` buttons.
+- **Empowerment**: Bitcoin offers a level of financial autonomy that traditional systems can’t match. It empowers individuals to manage their own money without relying on intermediaries.
 
-```diff
-      <ShareLinks />
-    </div>
+- **Global Impact**: Bitcoin is a global phenomenon. By understanding and adopting it, you’re joining a worldwide community committed to creating a more inclusive and efficient financial system.
 
-+    <script src="https://giscus.app/client.js"
-+        data-repo="[ENTER REPO HERE]"
-+        data-repo-id="[ENTER REPO ID HERE]"
-+        data-category="[ENTER CATEGORY NAME HERE]"
-+        data-category-id="[ENTER CATEGORY ID HERE]"
-+        ...
-+    </script>
+## Getting Started: Taking the Initiative
 
-  </main>
-  <Footer />
-</Layout>
-```
+Interested in diving into the world of Bitcoin? Here’s how you can start:
 
-And it's done! You have successfully integrated comments in _AstroPaper_!
+1. **Educate Yourself**: Take the time to learn about Bitcoin, blockchain technology, and cryptocurrency basics. Knowledge is key to making informed decisions.
 
-## React component with light/dark theme
+2. **Get a Wallet**: To store and manage your bitcoins, you’ll need a digital wallet. There are various types, including software, hardware, and mobile wallets.
 
-The embedded script tag in the layout is quite static, with the _Giscus_ configuration, including `theme`, hardcoded into the layout. Given that _AstroPaper_ features a light/dark theme toggle, it would be nice for the comments to seamlessly transition between light and dark themes along with the rest of the site. To achieve this, a more sophisticated approach to embedding _Giscus_ is required.
+3. **Buy Bitcoin**: Choose a reputable exchange to purchase Bitcoin. Start small, and gradually increase your investment as you become more comfortable.
 
-Firstly, we are going to install the [React component](https://www.npmjs.com/package/@giscus/react) for _Giscus_:
+4. **Stay Informed**: The world of Bitcoin is constantly evolving. Stay updated with the latest news and developments to make the most of your investment.
 
-```bash
-npm i @giscus/react
-```
+In conclusion, Bitcoin is more than just a digital currency—it’s a symbol of innovation and a gateway to a new financial paradigm. Whether you're an investor, a tech enthusiast, or someone curious about the future of money, Bitcoin offers a unique opportunity to be part of something transformative. Embrace the revolution and discover the potential of Bitcoin today!
 
-Then we create a new `Comments.tsx` React component in `src/components`:
+---
 
-```tsx
-import Giscus, { type Theme } from "@giscus/react";
-import { GISCUS } from "@config";
-import { useEffect, useState } from "react";
-
-interface CommentsProps {
-  lightTheme?: Theme;
-  darkTheme?: Theme;
-}
-
-export default function Comments({
-  lightTheme = "light",
-  darkTheme = "dark",
-}: CommentsProps) {
-  const [theme, setTheme] = useState(() => {
-    const currentTheme = localStorage.getItem("theme");
-    const browserTheme = window.matchMedia("(prefers-color-scheme: dark)")
-      .matches
-      ? "dark"
-      : "light";
-
-    return currentTheme || browserTheme;
-  });
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    const handleChange = ({ matches }: MediaQueryListEvent) => {
-      setTheme(matches ? "dark" : "light");
-    };
-
-    mediaQuery.addEventListener("change", handleChange);
-
-    return () => mediaQuery.removeEventListener("change", handleChange);
-  }, []);
-
-  useEffect(() => {
-    const themeButton = document.querySelector("#theme-btn");
-    const handleClick = () => {
-      setTheme(prevTheme => (prevTheme === "dark" ? "light" : "dark"));
-    };
-
-    themeButton?.addEventListener("click", handleClick);
-
-    return () => themeButton?.removeEventListener("click", handleClick);
-  }, []);
-
-  return (
-    <div className="mt-8">
-      <Giscus theme={theme === "light" ? lightTheme : darkTheme} {...GISCUS} />
-    </div>
-  );
-}
-```
-
-This _React_ component not only wraps the native _Giscus_ component, but also introduces additional props, namely `lightTheme` and `darkTheme`. Leveraging two event listeners, the _Giscus_ comments will align with the site's theme, dynamically switching between dark and light themes whenever the site or browser theme is changed.
-
-We also need to define the `GISCUS` config, for which the optimal location is in `src/config.ts`:
-
-```ts
-import type { GiscusProps } from "@giscus/react";
-
-...
-
-export const GISCUS: GiscusProps = {
-  repo: "[ENTER REPO HERE]",
-  repoId: "[ENTER REPO ID HERE]",
-  category: "[ENTER CATEGORY NAME HERE]",
-  categoryId: "[ENTER CATEGORY ID HERE]",
-  mapping: "pathname",
-  reactionsEnabled: "0",
-  emitMetadata: "0",
-  inputPosition: "bottom",
-  lang: "en",
-  loading: "lazy",
-};
-```
-
-Note that specifying a `theme` here will override the `lightTheme` and `darkTheme` props, resulting in a static theme setting, similar to the previous approach of embedding _Giscus_ with the `<script>` tag.
-
-To complete the process, add the new Comments component to `src/layouts/PostDetails.astro` (replacing the `script` tag from the previous step).
-
-```diff
-      <ShareLinks />
-    </div>
-
-+    <Comments client:only />
-
-  </main>
-  <Footer />
-</Layout>
-```
-
-And that's it!
+Feel free to share your thoughts or questions in the comments below. Let's keep the conversation going and explore the boundless possibilities of this digital frontier together! 🚀💰
