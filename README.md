@@ -45,9 +45,5 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 All blog posts are stored in `src/content/blog` directory.
 
-## 📜 License
-
-Licensed under the MIT License, Copyright © 2023
-
 ---
 Made with 🤍
