@@ -10,7 +10,7 @@
 
 ## 🚀 Project Structure
 
-Inside of AstroPaper, you'll see the following folders and files:
+folders and files:
 
 ```bash
 /
@@ -39,7 +39,7 @@ Inside of AstroPaper, you'll see the following folders and files:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Each page is exposed as a route based on its file name.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
