@@ -1,6 +1,6 @@
 ---
 author: William Mburu
-pubDatetime: 2024-09-11T11:11:53Z
+pubDatetime: 2024-08-27T10:34:53Z
 title: AVCO VS FIFO
 slug: avco-vs-fifo
 featured: true
@@ -94,10 +94,10 @@ The following table summarizes the profits for FIFO and AVCO in both inflationar
 
 | Period          | Method | COGS | Revenue | Profit |
 |-----------------|--------|------|---------|--------|
-| Inflationary FIFO| $70    | $200  | $130   |
-| Inflationary AVCO| $90   | $200  | $110   |
-| Deflationary FIFO| $120   | $200 | $80    |
-| Deflationary AVCO| $90   | $200  | $110   |
+| Inflationary | FIFO| $70    | $200  | $130   |
+| Inflationary | AVCO| $90   | $200  | $110   |
+| Deflationary | FIFO| $120   | $200 | $80    |
+| Deflationary | AVCO| $90   | $200  | $110   |
 
 ## Conclusion
 

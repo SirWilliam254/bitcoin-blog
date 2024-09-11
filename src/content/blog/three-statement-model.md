@@ -1,6 +1,6 @@
 ---
 author: William Mburu
-pubDatetime: 2022-10-12T11:11:53Z
+pubDatetime: 2022-10-12T01:22:53Z
 title: Three statement financial Model
 slug: three-statement-model
 featured: true
