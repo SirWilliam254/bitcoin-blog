@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://github.com/SirWilliam254/bitcoin-blog", // replace this with your deployed domain
   author: "William Mburu",
-  profile: "https://github.com/SirWilliam254",
+  profile: "https://financea.vercel.app/",
   desc: "Bitcoin verses traditional finacial products",
   title: "Finance",
   ogImage: "astropaper-og.jpg",
