@@ -12,7 +12,7 @@ tags:
 description: The three statement financial valuation model.
 ---
 
-3 statement modeling is a financial modeling technique used to create a comprehensive financial model of a company. It involves building projections for a company's income statement, balance sheet, and cash flow statement over a period of time, typically 3 to 5 years.
+The 3 statement modeling is a financial modeling technique used to create a comprehensive financial model of a company. It involves building projections for a company's income statement, balance sheet, and cash flow statement over a period of time, typically 3 to 5 years.
 
 The income statement projects a company's revenues, costs, and expenses, and shows the company's profitability. The balance sheet projects a company's assets, liabilities, and equity, and shows the company's financial position. The cash flow statement projects a company's cash inflows and outflows, and shows how the company is generating and using cash.
 
